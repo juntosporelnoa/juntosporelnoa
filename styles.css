@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #b4a180;
     color: #333;
 }
 
 header {
-    background-color: #2a3d45;
-    color: white;
+    background-color: #d76d3c;
+    color: #faf1c4;
     text-align: center;
     padding: 20px;
 }
@@ -47,11 +47,14 @@ p {
 }
 
 #language-switch button.selected {
-    background-color: #3d5a63;
+    background: #759c8a;
+    color: #fff;
+    border: 1px solid #007BFF;
+    cursor: default;
 }
 
 #language-switch button:hover {
-    background-color: #3d5a63;
+    background-color: #759c8a;
 }
 
 /* Container for content */
@@ -62,9 +65,14 @@ p {
 /* Section Styles */
 section {
     margin-bottom: 40px;
+    padding: 10px;
+    background: #765c41;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #faf1c4(0, 0, 0, 0.1);
+    
 }
 
-h2 {
+h1, h2, h3 {
     font-size: 1.8em;
     color: #2a3d45;
 }
